@@ -37,13 +37,10 @@ export const UserDetailModal: VFC<Props> = memo((props) => {
             <FormControl>
               <FormLabel>名前</FormLabel>
               <Input Value={user?.username} isReadOnly />
-
               <FormLabel>フルネーム</FormLabel>
               <Input Value={user?.name} isReadOnly />
-
               <FormLabel>MAIL</FormLabel>
               <Input Value={user?.email} isReadOnly />
-
               <FormLabel>TEL</FormLabel>
               <Input Value={user?.phone} isReadOnly />
             </FormControl>
